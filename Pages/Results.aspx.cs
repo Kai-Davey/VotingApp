@@ -29,7 +29,7 @@ namespace Voting.Pages
                     iQuestion++;
 
                     MySqlCommand cmd = new MySqlCommand();
-                    cmd.Connection = conn;
+                    cmd.Connection = conn; 
 
                     //Favour
                     cmd.CommandText = "GetFavour";
